@@ -1,0 +1,3 @@
+rm ./static/backend.exe
+pkg . --targets win --no-bytecode --public --public-packages '*'
+mv backend.exe ./static/

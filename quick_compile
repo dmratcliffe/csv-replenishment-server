@@ -1,0 +1,6 @@
+cd ./frontend
+npm run-script build
+cd ./build
+cp ./* ../../backend/static -r
+cd ../../backend
+cp example.csv ./lists/replen
