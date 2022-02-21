@@ -23,7 +23,7 @@ Front End:
     * Undo last operation
     * How many items left, how many selected
     * Sorting based on Unisex, Male, Female (How the store was divided)
-    * Additiona sorting on "item classifications"
+       * Additiona sorting on "item classifications", such as size and area of item
     * Displays of how many are left, whith a highlight when there's only 1 left (to prevenet mindless searching if there's an inventory issue)
   * They are also "Server Owned", i6f a change you request to the list fails, the front end will not update.
     * This allows multiple people to safely work on the list, if something isn't working, a refresh should update the users list, which will sync with the latest server
@@ -58,7 +58,7 @@ Scanning a barcode:
 ## Building
 
 Make sure you NPM install for the backend and the frontend folders.
-Running the quickbuild.sh will compile the frontend, move ingit pusto the backend and setup test data. Then build inside ./backend will compile everything together and drop one exe
+Running the quickbuild.sh will compile the frontend, move it into the static folder for the backedn, and then setup some test data. Then to compile the exe, build inside ./backend will compile everything together and drop one exe with no dependeincies. The first run will drop the config and folder structure.
 
 ### Config:
 
