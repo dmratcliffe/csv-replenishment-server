@@ -36,25 +36,29 @@ Backend:
 * A QR code is dropped for easy access on mobile device, eithier as an image file or a ASCII console art.
 * Logging for actions done inside the server
 
-
 All of the above gets then compiled into a EXE that when ran, sets up a folders for the list generation, shows a command prompt, generates the default config, and hosts the frontend.
 
 ## Showcase
 
 Removing items:
   ![remove flow](./readme_resources/remflow.jpg)
-      
+
 Adding Items to Needs:
   ![needs flow](./readme_resources/needflow.jpg)
 
 Scanning a barcode:
-    > currently unable to show as I do not have a barcode, nor the data required to showcase searching. it seems the barcode scanner plugin was also deprectated, and no longer works in a modern mobile browser, so a replacement needs to be found
+    > currently unable to show as I do not have a barcode, nor the data required to showcase searching. It also seems the barcode scanner plugin was also deprectated, and no longer works in a modern mobile browser, so a replacement needs to be found
+
 ## Building
+
 Make sure you NPM install for the backend and the frontend folders.
-Running the quickbuild.sh will compile the frontend, move into the backend and setup test data. Then build inside ./backend will compile everything together and drop one exe
+Running the quickbuild.sh will compile the frontend, move ingit pusto the backend and setup test data. Then build inside ./backend will compile everything together and drop one exe
+
 ### Config:
+
 the config should look like:
-``` ini
+
+```ini
 #hey you!
 #ya you!
 #don't touch this file.
