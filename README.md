@@ -18,7 +18,13 @@ Front End:
   * Replen was the items sold for the day that needed checking (still had >1 in stock)
   * Needs were the items from replen that were not on the floor.
     * This list is what you would grab from the back of the store
-  * These lists have basic convience features such as, how many items are selected, how many items are left, and undo the last operation.
+  * These lists have basic convience features such as
+    * Select and commit an action on mutliple items at once
+    * Undo last operation
+    * How many items left, how many selected
+    * Sorting based on Unisex, Male, Female (How the store was divided)
+    * Additiona sorting on "item classifications"
+    * Displays of how many are left, whith a highlight when there's only 1 left (to prevenet mindless searching if there's an inventory issue)
   * They are also "Server Owned", i6f a change you request to the list fails, the front end will not update.
     * This allows multiple people to safely work on the list, if something isn't working, a refresh should update the users list, which will sync with the latest server
 * A Scanner
