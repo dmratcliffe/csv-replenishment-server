@@ -1,0 +1,53 @@
+.status-strip{
+    height: 40px;
+    width: 100%;
+
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+
+    box-sizing: border-box;
+    border-bottom: 2px solid var(--fg-color);
+
+    line-height: 40px;
+
+    font-size: 1em;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.status-cell{
+    width: 33.33%;
+    /* padding-left: 22px;
+    padding-right: 22px; */
+    flex: 1;
+}
+
+.status-left {
+    padding-left: 22px;
+    text-align: left;
+}
+
+.status-mid{
+    text-align: center;
+}
+
+.status-right {
+    padding-right: 22px;
+    text-align: right;
+}
+
+.tap-text{
+    background-color: var(--ac-color);
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 500;
+
+    border: .15em dashed var(--fg-color);
+}
+
+.highlight-tap-text{
+    background-color: var(--nd-color) !important;
+}
